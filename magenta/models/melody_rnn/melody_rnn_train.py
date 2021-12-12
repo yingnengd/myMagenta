@@ -23,7 +23,7 @@ from magenta.models.shared import events_rnn_train
 import tensorflow.compat.v1 as tf
 
 FLAGS = tf.app.flags.FLAGS
-tf.app.flags.DEFINE_string('run_dir', '/tmp/melody_rnn/logdir/run1',
+tf.app.flags.DEFINE_string('run_dir', './melody_rnn/run',
                            'Path to the directory where checkpoints and '
                            'summary events will be saved during training and '
                            'evaluation. Separate subdirectories for training '
